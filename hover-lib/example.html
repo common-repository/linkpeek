@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <!--   include the hover-lib stylesheet  -->
+    <link rel="stylesheet" href="css/hover-lib.css">
+    <!--   include jquery.js library  -->
+    <script type="text/javascript" src="js/jquery.js"></script>   
+  </head>
+
+<body style="margin: 355px; margin-top:45px;">
+
+<a href="https://www.google.com/" class="hover-lib" id="https://www.google.com/images/srpr/logo4w.png">hover this link!</a>
+<br/>
+<br/>
+This is just a normal HTML link.  To add the on-hover image magic we add class="hover-lib" and id="/location/of/the/hover-image.png"
+
+<br/>
+<br/>
+hover-lib.css and hover-lib.js do all the heavy lifting!  
+<br/>
+<br/>
+Here is an example using LinkPeek realtime <a href="https://linkpeek.com">website screenshot service</a>:
+<br/>
+<br/>
+<a href="https://linkpeek.com" class="hover-lib" id="https://linkpeek.com/api/v1?uri=http%3A//store.steampowered.com/&amp;apikey=9fhvyH9KP&amp;token=952b92ea77948977e12ba6ca8b89cea7&amp;size=400x140">screenshot preview</a>
+<br/>
+<br/>
+Here is a fallback image example:
+<br/>
+<br/>
+<a href="https://www.example.com" class="hover-lib" id="https://linkpeek.com/api/v1?uri=http%3A//store.steampowered.com/&amp;apikey=9fhvyH9KP&amp;token=952b92ea77948977e12ba6ca8b89cea777&amp;size=400x140">on 404 error!</a>
+
+  <!--   after the closing body tag import hover-lib.js   -->
+  <script type="text/javascript" src="js/hover-lib.js"></script>   
+</body>
+</html>
